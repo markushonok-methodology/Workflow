@@ -5,7 +5,8 @@ When assigned a development task, establish its current context before making su
 ## Preparation
 
 * Read the task description and applicable project instructions.
-* Read the task's existing work note, if present, according to `<workflow>/WorkNote.*`.
+* Ensure the task has a work note according to `<workflow>/WorkNote.*` before making substantive changes: read the existing note, or create one if none exists.
+* Ensure the task description remains available for continuation and review. If its authoritative source may not remain available, preserve enough of the description in the work note before continuing.
 * Inspect the relevant code, tests, and documentation.
 * Identify requirements, constraints, and existing contracts that materially affect the task.
 
@@ -15,11 +16,7 @@ Do not silently resolve a material ambiguity that cannot be answered from the ta
 
 Implement the requested outcome without expanding the task unnecessarily. Treat existing contracts as constraints unless the task intentionally changes them.
 
-Before making substantive changes, create or update the task's work note according to `<workflow>/WorkNote.*`.
-
-Maintain it throughout implementation whenever information arises whose loss would materially hinder continuation or review.
-
-Record important constraints, decisions, rejected approaches, risks, and unresolved questions when losing them would materially hinder continuation or review.
+Maintain the work note throughout implementation. Record important requirements, constraints, decisions, rejected approaches, risks, unresolved questions, and other context whose loss would materially hinder continuation or review.
 
 Do not leave durable project knowledge only in the work note. Preserve lasting knowledge in the appropriate code, tests, or documentation.
 
